@@ -29,4 +29,4 @@ class Example extends React.Component {
 ## License
 
 MIT © [Shrag](https://github.com/Shragenator)
-forked from: [d3dc](https://github.com/d3dc)
+ original author: [d3dc](https://github.com/d3dc)
