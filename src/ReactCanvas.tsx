@@ -47,21 +47,21 @@ const ReactCanvas: FunctionComponent<ReactEngineProps> = ({
         })
         .catch(err => changeLoadingState(toFailure(err)))
 
-      instance.setProgressFunc((current, total) => {
+  /*     instance.setProgressFunc((current, total) => {
         if (total > 0) {
           changeLoadingState({ mode: "progress", percent: current / total })
         } else {
           changeLoadingState({ mode: "indeterminate" })
         }
-      })
+      }) */
     }
   }, [instance, pck, changeLoadingState])
 
-  useEffect(() => {
+  /* useEffect(() => {
     if (instance) {
       instance.setCanvas(canvasRef.current)
     }
-  }, [instance, canvasRef.current])
+  }, [instance, canvasRef.current]) */
 
   return (
     <canvas
