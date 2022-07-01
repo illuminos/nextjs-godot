@@ -15,9 +15,9 @@
   },
   "scripts": {
     "test": "react-scripts test",
-    "build": "NODE_ENV=production tsc",
+    "build": "NODE_ENV=production",
     "build:css": "cp src/styles.css dist/",
-    "start": "NODE_ENV=development tsc -w",
+    "start": "NODE_ENV=development",
     "prepare": "npm run build && npm run build:css",
     "predeploy": "cd example && npm install && npm run build"
   },
