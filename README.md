@@ -1,13 +1,13 @@
-# react-godot
+# nextjs-godot
 
-> Load a webassembly build of the Godot engine and Bootstrap packed games from within the react component tree
+> Load a webassembly build of the Godot engine and Bootstrap packed games from within the react component tree.   Modified to work within NextJS
 
 [![NPM](https://img.shields.io/npm/v/react-godot.svg)](https://www.npmjs.com/package/react-godot) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-godot
+npm install --save nextjs-godot
 ```
 
 ## Usage
@@ -15,12 +15,12 @@ npm install --save react-godot
 ```tsx
 import * as React from 'react'
 
-import ReactGodot from 'react-godot'
+import NextGodot from 'nextjs-godot'
 
 class Example extends React.Component {
   render () {
     return (
-      <ReactGodot script='/path/to/myGame.js' pck='/path/to/myGame.pck' />
+      <NextGodot script='/path/to/myGame.js' pck='/path/to/myGame.pck' />
     )
   }
 }
@@ -28,4 +28,5 @@ class Example extends React.Component {
 
 ## License
 
-MIT © [d3dc](https://github.com/d3dc)
+MIT © [Shrag](https://github.com/Shragenator)
+forked from: [d3dc](https://github.com/d3dc)
